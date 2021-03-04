@@ -25,9 +25,9 @@ jobs:
           python-version: "3.x"
       - name: Generate layout.json and update manifest.json
         run: |
-          cd ./Model Matching
+          cd ./Model
           python3 build.py
       - uses: actions/upload-artifact@v2
         with:
-          name: Model-Matching
-          path: ./Model-Matching/
+          name: Model
+          path: ./Model/
