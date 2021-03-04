@@ -29,5 +29,5 @@ jobs:
           python3 build.py
       - uses: actions/upload-artifact@v2
         with:
-          name: Model Matching
-          path: ./ModelMatching/
+          name: Model-Matching
+          path: ./Model-Matching/
