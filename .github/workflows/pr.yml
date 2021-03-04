@@ -24,10 +24,11 @@ jobs:
         with:
           python-version: "3.x"
       - name: Generate layout.json and update manifest.json
-        run: |
-          cd ./Model
-          python3 build.py
+        run: 
+        |Model-Matching/Model/build.py
+
+          
       - uses: actions/upload-artifact@v2
         with:
           name: Model
-          path: ./Model/
+          path: Model
