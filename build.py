@@ -1,7 +1,7 @@
 import os
 import json
 
-project_directories = ["SimObjects"]
+project_directories = ["Model"]
 
 content_entries = list()
 total_package_size = 0
@@ -22,13 +22,13 @@ for project_directory in project_directories:
 
 layout_entries = {"content": content_entries}
 
-layout_file = open("layout.json", "w")
+layout_file = open("Model/layout.json", "w")
 json.dump(layout_entries, layout_file, indent=4)
 
-manifest_file = open("manifest.json", "r")
+manifest_file = open("Model/manifest.json", "r")
 
 manifest_entries = json.load(manifest_file)
 manifest_entries["total_package_size"] = str(total_package_size).zfill(20)
 
-manifest_file = open("manifest.json", "w")
+manifest_file = open("Model/manifest.json", "w")
 json.dump(manifest_entries, manifest_file, indent=4)
