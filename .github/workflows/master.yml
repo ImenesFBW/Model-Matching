@@ -8,7 +8,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      MASTER_PRE_RELEASE_ID: MDc6UmVsZWFzZTM5Mzg0MDQ4
+      MASTER_PRE_RELEASE_ID: MDM6UmVmMzQ0NTkwMDc0OnJlZnMvdGFncy92bWFzdGVy
       MASTER_PRE_RELEASE_TAG: vmaster
       MASTER_ZIP_NAME: ModelMatching.zip
       BUILD_DIR_NAME: vmaster
