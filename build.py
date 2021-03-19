@@ -1,7 +1,7 @@
 import os
 import json
 
-project_directories = ["Model"]
+project_directories = ["Flight-Sim-Model-Matching-Models"]
 
 content_entries = list()
 total_package_size = 0
