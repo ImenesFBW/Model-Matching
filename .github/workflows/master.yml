@@ -22,7 +22,7 @@ jobs:
       - name: Build ZIP files
         run: |
           mkdir ./${{ env.BUILD_DIR_NAME }}
-          zip -r ./${{ env.BUILD_DIR_NAME }}/${{ env.MASTER_ZIP_NAME }} ./Model
+          zip -r ./${{ env.BUILD_DIR_NAME }}/${{ env.MASTER_ZIP_NAME }} ./Flight-Sim-Model-Matching-Models
       - name: Get and delete master pre-release zip asset
         run: |
           echo 'checking for first release asset...'
