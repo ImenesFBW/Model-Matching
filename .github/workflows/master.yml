@@ -10,7 +10,7 @@ jobs:
     env:
       MASTER_PRE_RELEASE_ID: 39386849
       MASTER_PRE_RELEASE_TAG: vmaster
-      MASTER_ZIP_NAME: Model-Matching.zip
+      MASTER_ZIP_NAME: Flight-Sim-Model-Matching.zip
       BUILD_DIR_NAME: vmaster
     steps:
       - name: Checkout source
