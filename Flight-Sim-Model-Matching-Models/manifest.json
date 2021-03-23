@@ -1,15 +1,13 @@
 {
     "dependencies": [
-        {
-            
-        }
+        {}
     ],
     "content_type": "Model Matching",
-    "title": "Model Matchomg",
+    "title": "Flight-Sim-Model-Matching",
     "manufacturer": "",
-    "creator": "Model-Matching-MSFS",
+    "creator": "Flight-Sim-Model-Matching",
     "package_version": "0.0.1",
-    "minimum_game_version": "1.10.6",
+    "minimum_game_version": "1.14.5.0",
     "release_notes": {
         "neutral": {
             "LastUpdate": "",
