@@ -6,6 +6,7 @@ on:
 
 jobs:
   build:
+    if: github.repository_owner == 'Flight-Sim-Model-Matching'
     runs-on: ubuntu-latest
     env:
       MASTER_PRE_RELEASE_ID: 39386849
