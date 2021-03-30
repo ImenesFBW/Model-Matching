@@ -22,5 +22,5 @@ jobs:
           
       - uses: actions/upload-artifact@v2
         with:
-          name: A32NX
+          name: FSMM Model Matching
           path: ./Flight-Sim-Model-Matching-Models/
